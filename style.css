@@ -1,0 +1,28 @@
+h1 {
+  font-size: xx-large;
+  color: rgb(48, 86, 251);
+  text-align: center;
+  margin: 0 auto;
+}
+/* flexコンテナ（親要素） */
+.wrap_content {
+  border-radius: 50%;
+  display: flex; /* flex設定 */
+  flex-wrap: wrap; /* 折り返しあり */
+  margin: 10px 0 150px 0;
+  justify-content: center; /* flexboxを中央寄せに配置 */
+}
+/* flexアイテム（子要素） */
+.wrap_content .box {
+  padding: 3%;
+  background: #c6f498;
+  margin: 10px 1.5%;
+  border-radius: 50%;
+  font-size: x-large;
+  font-weight: bold;
+  color: rgb(26, 106, 234);
+}
+.box0 {
+  text-align: center;
+  margin: 0 auto;
+}
